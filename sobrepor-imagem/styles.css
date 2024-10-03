@@ -1,0 +1,22 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 300px; /* ou defina a largura específica */
+    height: auto; /* ou defina uma altura específica */
+  }
+  
+  .image-container .title {
+    position: absolute;
+    top: 75%; /* Ajusta a posição do texto verticalmente */
+    left: 50%; /* Ajusta a posição do texto horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: white; /* Cor do texto */
+    font-size: 2em; /* Tamanho do texto */
+    background-color: rgba(154, 154, 154, 0.5); /* Fundo semitransparente */
+    padding: 10px;
+    border-radius: 5px; /* Deixe as bordas arredondadas */
+  }
+  
